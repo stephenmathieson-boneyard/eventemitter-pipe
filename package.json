@@ -1,0 +1,36 @@
+{
+  "name": "eventemitter-pipe",
+  "version": "0.0.0",
+  "description": "Pipe one EventEmitter into another",
+  "keywords": [
+    "eventemitter",
+    "pipe",
+    "emitter",
+    "event"
+  ],
+  "author": "Stephen Mathieson <me@stephenmathieson.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephenmathieson/eventemitter-pipe.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.12.1",
+    "better-assert": "~1.0.0",
+    "jshint": "~2.1.10",
+    "mocha-phantomjs": "~3.1.2",
+    "phantomjs": "~1.9.1-9",
+    "component": "~0.17.2"
+  },
+  "main": "index",
+  "bugs": {
+    "url": "https://github.com/stephenmathieson/eventemitter-pipe/issues"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  }
+}
