@@ -2,7 +2,7 @@
   "name": "eventemitter-pipe",
   "repo": "stephenmathieson/eventemitter-pipe",
   "description": "Pipe one Emitter into another",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "keywords": [
     "emitter",
     "pipe",

@@ -1,6 +1,6 @@
 {
   "name": "eventemitter-pipe",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Pipe one EventEmitter into another",
   "keywords": [
     "eventemitter",
