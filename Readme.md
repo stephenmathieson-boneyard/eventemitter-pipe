@@ -1,7 +1,8 @@
-
 # eventemitter-pipe
 
   Pipe one EventEmitter into another
+
+[![Build Status](https://travis-ci.org/stephenmathieson/eventemitter-pipe.png)](https://travis-ci.org/stephenmathieson/eventemitter-pipe)
 
 ## Installation
 
