@@ -33,7 +33,7 @@ exports.unpipe = unpipe;
  */
 
 function pipe(a, b) {
-  if (!(a instanceof EventEmitter) || !(b instanceof EventEmitter)) {
+  if (!a.emit || !b.emit) {
     throw new TypeError('non-EventEmitter provided');
   }
 

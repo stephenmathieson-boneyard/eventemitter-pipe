@@ -39,6 +39,13 @@ describe('eventemitter-pipe', function () {
       }
     });
 
+    it('should allow two objects with "emit" methods', function (done) {
+      var a = { emit: function () {} };
+      var b = { emit: done };
+      pipe(a, b);
+      a.emit();
+    });
+
     it('should pipe events from a to b', function (done) {
       var a = new EventEmitter;
       var b = new EventEmitter;
