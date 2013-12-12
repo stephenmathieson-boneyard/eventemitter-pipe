@@ -9,6 +9,21 @@ try {
   EventEmitter = require('emitter');
 }
 
+
+/**
+ * Expose pipe
+ */
+
+exports = module.exports = pipe;
+exports.pipe = pipe;
+
+
+/**
+ * Expose `unpipe`
+ */
+
+exports.unpipe = unpipe;
+
 /**
  * Pipe events from `a` to `b`
  *
@@ -45,17 +60,3 @@ function unpipe(emitter) {
 
   emitter.emit = emitter._emit;
 }
-
-/**
- * Expose pipe
- */
-
-exports = module.exports = pipe;
-exports.pipe = pipe;
-
-
-/**
- * Expose `unpipe`
- */
-
-exports.unpipe = unpipe;
